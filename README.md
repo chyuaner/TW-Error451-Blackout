@@ -5,14 +5,12 @@
 - blackout.js : 是要給別人include進去的js檔，抗議內容也都在裏面
 - DEMO.html : 測試用的網頁
 - blackout_content.html : 原始要顯示的抗議內容，我是先寫完此檔案後，才逐步轉成給別人用的js檔。可以說blackout_content.html檔案和實際運作**完全無關**
-
+- blackout-background.jpg : 為採用的背景圖，來自 http://www.flickr.com/photos/gcfairch/4081513150/
 
 # 主要參考
 - [MozTW - MoPad] (https://etherpad.mozilla.org/moztw-error451)
 - [lazurloner - 451頁面] (http://lazur.me/error_451/error_451.htm)
 - [Github - lazurloner - TW-ERROR-451-PAGE] (https://github.com/lazurloner/TW-ERROR-451-PAGE)
-- http://www.flickr.com/photos/69573351@N05/7135980531/
-- http://www.flickr.com/photos/gcfairch/4081513150/
 - [Against the Master Switch 挑戰總開關] (https://hackpad.com/Against-the-Master-Switch--sr1MxStPAO5)
 
 # SOPA Blackout參考

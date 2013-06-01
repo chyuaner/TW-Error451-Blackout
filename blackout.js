@@ -12,7 +12,7 @@ var header = document.createElement("header");
 	title_icon.setAttribute("src", "http://lazur.me/error_451/warning_451.png");
 	title_icon.setAttribute("height", "30");
 	title_icon.setAttribute("width", "30");
-	var title_content = document.createTextNode("ERROR 541 本網頁基於國家法律而封鎖");
+	var title_content = document.createTextNode("ERROR 451 本網頁基於國家法律而封鎖");
 	title.appendChild(title_icon);
 	title.appendChild(title_content);
 header.appendChild(title);
