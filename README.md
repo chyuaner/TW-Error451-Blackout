@@ -26,3 +26,6 @@
 - [動態產生HTML element -- document.createElement] (http://nano-chicken.blogspot.tw/2012/03/html-element-documentcreateelement.html)
 - [javascript 動態產生html tag] (http://kevyu.blogspot.tw/2008/03/javascript-html-tag.html)
 - [Yahoo Knowledge - 網頁黑色半透明覆蓋視窗要怎麼做?(圖層.javascript] (http://tw.knowledge.yahoo.com/question/question?qid=1508090710534)
+- [JavaScript - Document對象內容集合] (http://blog.xuite.net/trcy/vie/17670722-JavaScript+-+Document%E5%B0%8D%E8%B1%A1%E5%85%A7%E5%AE%B9%E9%9B%86%E5%90%88)
+- [程式語言教學誌 - HTML DOM 快速導覽 - 文件物件 document 的方法 createTextNode() ] (http://pydoing.blogspot.tw/2011/08/javascript-createtextnode.html)
+- [createElement('a') with a javascript href] (http://www.peterbe.com/plog/createelement-a)

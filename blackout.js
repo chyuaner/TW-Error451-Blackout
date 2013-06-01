@@ -35,6 +35,7 @@ var content3_content = document.createTextNode("更多訊息請閱讀：");
 	content3_content_a.setAttribute("href", "https://www.facebook.com/events/486224794784563/");
 	content3_content_a.appendChild(document.createTextNode("#freeandopen 斷然反對鎖國！堅決主張百分之百的網路自由！！"));
 content3.appendChild(content3_content);
+content3.appendChild(content3_content_a);
 
 var footer = document.createElement("p");
 footer.setAttribute("class", "blackout-footer");
