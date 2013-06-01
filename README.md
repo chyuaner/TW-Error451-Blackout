@@ -1,6 +1,12 @@
 台灣Error 451的Blackout抗議財智局
 ==================================== 
 
+# 檔案內容
+- blackout.js : 是要給別人include進去的js檔，抗議內容也都在裏面
+- DEMO.html : 測試用的網頁
+- blackout_content.html : 原始要顯示的抗議內容，我是先寫完此檔案後，才逐步轉成給別人用的js檔。可以說blackout_content.html檔案和實際運作**完全無關**
+
+
 # 主要參考
 - [MozTW - MoPad] (https://etherpad.mozilla.org/moztw-error451)
 - [lazurloner - 451頁面] (http://lazur.me/error_451/error_451.htm)
