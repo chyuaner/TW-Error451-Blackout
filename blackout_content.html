@@ -4,9 +4,6 @@
 		<meta charset="utf-8" />
 		<title></title>
 		<style>
-			body {
-				/*background-color: black;*/
-			}
 			#blackout {
 				display: block;
 				position: absolute;
@@ -16,8 +13,7 @@
 				bottom: 3%;
 				right: 3%;
 				
-				/*height: 80%;
-				widget: 80%;*/
+				padding: 2rem;
 				
 				border: 1px black solid;
 				border-radius: 10px;
@@ -25,9 +21,12 @@
 				background-color: white;
 			}
 			
+			#blackout .blackout-footer {
+				text-align: center;
+			}
 			#blackout .blackout-btn {
 				border: 1px black solid;
-				
+				padding: 0.3rem;
 			}
 		</style>
 	</head>
@@ -40,7 +39,7 @@
 			<p>針對中華民國經濟部智慧財產局（以下簡稱智財局）日前發布新聞稿，稱將研議相關法案，針對境外重大侵權網站，擬建立快速處置措施，令網路服務提供者（ISP）予以封鎖乙事，本網站表示強烈反對。並呼籲政府相關單位停止討論任何類似美國SOPA的法案，以維護資訊流通與祕密通訊自由。如果我們不積極爭取，有一天，可能將會真的看到類似如此的 <a href="http://binb.tw/?p=407">ERROR 451 錯誤</a>。</p>
 			<p>更多訊息請閱讀：<a href="https://www.facebook.com/events/486224794784563/">#freeandopen 斷然反對鎖國！堅決主張百分之百的網路自由！！</a></p>
 			
-			<a href="#" class="blackout-btn" onclick="document.getElementById('blackout').style.display = 'none'">繼續瀏覽網頁</a>
+			<p class="blackout-footer"><a href="#" class="blackout-btn" onclick="document.getElementById('blackout').style.display = 'none'">繼續瀏覽網頁</a></p>
 		</div>
 		
 		<p>aaa</p>

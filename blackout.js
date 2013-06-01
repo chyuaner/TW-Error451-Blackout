@@ -1,7 +1,7 @@
 //套上CSS樣式
 var blackout_css = document.createElement("style");
 var blackout_css_content = document.createTextNode(
-	"#blackout {\n				display: block;\n				position: absolute;\n				\n				left: 3%;\n				top: 3%;\n				bottom: 3%;\n				right: 3%;\n				\n				/*height: 80%;\n				widget: 80%;*/\n				\n				border: 1px black solid;\n				border-radius: 10px;\n				\n				background-color: white;\n			}\n			\n			#blackout .blackout-btn {\n				border: 1px black solid;\n				\n			}"
+	"#blackout {\n				display: block;\n				position: absolute;\n				\n				left: 3%;\n				top: 3%;\n				bottom: 3%;\n				right: 3%;\n				\n				padding: 2rem;\n				\n				border: 1px black solid;\n				border-radius: 10px;\n				\n				background-color: white;\n			}\n			\n			#blackout .blackout-footer {\n				text-align: center;\n			}\n			#blackout .blackout-btn {\n				border: 1px black solid;\n				padding: 0.3rem;\n			}"
 	);
 blackout_css.appendChild(blackout_css_content);
 
@@ -30,12 +30,17 @@ content2.appendChild(content2_content_a1);
 content2.appendChild(content2_content2);
 
 var content3 = document.createElement("p");
-var content3_content = document.createTextNode("為何看到這個畫面？");
+var content3_content = document.createTextNode("更多訊息請閱讀：");
+	var content3_content_a = document.createElement("a");
+	content3_content_a.setAttribute("href", "https://www.facebook.com/events/486224794784563/");
+	content3_content_a.appendChild(document.createTextNode("#freeandopen 斷然反對鎖國！堅決主張百分之百的網路自由！！"));
 content3.appendChild(content3_content);
 
 var footer = document.createElement("p");
+footer.setAttribute("class", "blackout-footer");
 	var footer_content_close = document.createElement("a");
 	footer_content_close.setAttribute("href", "#");
+	footer_content_close.setAttribute("class", "blackout-btn");
 	footer_content_close.setAttribute("onclick", "document.getElementById('blackout').style.display = 'none'");
 	footer_content_close.appendChild(document.createTextNode("繼續瀏覽網頁"));
 footer.appendChild(footer_content_close);
