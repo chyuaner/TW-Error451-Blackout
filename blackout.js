@@ -8,12 +8,7 @@ blackout_css.appendChild(blackout_css_content);
 //騰寫抗議內容
 var header = document.createElement("header");
 	var title = document.createElement("h1");
-	var title_icon = document.createElement("img");
-	title_icon.setAttribute("src", "http://lazur.me/error_451/warning_451.png");
-	title_icon.setAttribute("height", "30");
-	title_icon.setAttribute("width", "30");
 	var title_content = document.createTextNode("ERROR 451 本網頁基於國家法律而封鎖");
-	title.appendChild(title_icon);
 	title.appendChild(title_content);
 header.appendChild(title);
 
@@ -56,9 +51,11 @@ footer.appendChild(footer_content_close);
 //建立抗議內容到#blackout區塊
 window.onload = function()
 {
-	var element=document.getElementById("blackout");
+    var element = document.createElement("div");
+    element.id = 'blackout';
 	element.appendChild(blackout_css);
 	element.appendChild(header);
 	element.appendChild(section);
 	element.appendChild(footer);
+	document.body.appendChild(element);
 }
